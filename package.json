@@ -1,0 +1,24 @@
+{
+  "name": "keyforge-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^17.2.3",
+    "figlet": "^1.9.3",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^8.2.7",
+    "log-symbols": "^4.1.0",
+    "ora": "^6.3.1"
+  }
+}
