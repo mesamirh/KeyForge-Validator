@@ -9,7 +9,6 @@
  * - Convert to: ENV line, JSON array, one-per-line, CSV, or custom per-key template ({key})
  * - Round-trip re-validate after formatting
  * - Save to .env (with backup) or to a new file
- *
  */
 
 const fs = require("fs");
@@ -53,7 +52,7 @@ const hr = (label = "") => {
 };
 
 function banner() {
-  const msg = figlet.textSync("PK Validator", { font: "Small Slant" });
+  const msg = figlet.textSync("KeyForge Validator", { font: "Small Slant" });
   console.log(gradient.atlas.multiline(msg));
   const subtitle = boxen(
     chalk.white("Validate and reformat private keys to ") +
